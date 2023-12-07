@@ -1,0 +1,10 @@
+# basic configs for a terraform reusable module
+
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0"
+    }
+  }
+}
