@@ -1,0 +1,1 @@
+aws glue start-job-run --job-name ca-input-handler-glue-job-dev --arguments="--input_file_path=s3://mybucket/myinputfile,--job_id=myjobid"
