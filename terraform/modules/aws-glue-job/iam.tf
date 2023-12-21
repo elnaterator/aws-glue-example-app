@@ -1,7 +1,7 @@
 # create role for the etl glue job
 
 resource "aws_iam_role" "glue" {
-  name = "glue_etl_role"
+  name = "glue_etl_role_${var.env}"
 
   assume_role_policy = <<EOF
 {
